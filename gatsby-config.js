@@ -16,6 +16,21 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Roboto`,
+            variants: [`300`, `400`, `900`]
+          },
+          {
+            family: `Playfair Display`,
+            variants: [`400`, `400i`, `700`, `700i`, `900`, `900i`]
+          }
+        ],
+      },
+    }
     // {
     //   resolve: `gatsby-plugin-manifest`,
     //   options: {
