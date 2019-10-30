@@ -5,7 +5,6 @@ import Button from './Button'
 export default () => {
   return (
     <div className="wrapper-left">
-      <Nav />
       <div className="home-container">
         <div className="home-header-container">
           <h1 className="home-header">The Days of Your Youth</h1>

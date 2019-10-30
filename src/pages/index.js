@@ -1,13 +1,14 @@
 import React from "react"
-import {  Image, Home } from '../components'
+import {  Nav, Image, Home } from '../components'
 
 import '../styles.scss'
 
 const IndexPage = () => {
   return (
     <div className="wrapper">
-      <Home />
+      <Nav />
       <Image />
+      <Home />
     </div>
   )
 }
