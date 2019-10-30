@@ -1,5 +1,5 @@
 import React from "react"
-import {  Nav, Image, Home } from '../components'
+import {  Nav, ImageBackground, Home } from '../components'
 
 import '../styles.scss'
 
@@ -7,7 +7,7 @@ const IndexPage = () => {
   return (
     <div className="wrapper">
       <Nav />
-      <Image />
+      <ImageBackground />
       <Home />
     </div>
   )
