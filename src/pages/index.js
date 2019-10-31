@@ -1,5 +1,5 @@
 import React from "react"
-import {  Nav, ImageBackground, Home } from '../components'
+import {  Nav, Home, ImageBackground } from '../components'
 
 import '../styles.scss'
 
