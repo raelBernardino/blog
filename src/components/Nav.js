@@ -18,6 +18,13 @@ export default function () {
             activeClassName="nav-links__active"
             to="/comingsoon"
             >
+            Blog
+          </Link>
+          <Link
+            className="nav-links"
+            activeClassName="nav-links__active"
+            to="/comingsoon"
+            >
             About
           </Link>
           <Link
