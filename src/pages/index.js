@@ -25,7 +25,7 @@ const IndexPage = () => {
         />
       </div>
       <BlogWrapper
-        style={{ display: blogDisplay }}>
+        style={{ display: 'flex' }}>
         <RecentBlog />
       </BlogWrapper>
     </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import { VerticalContainer, HorizontalContainer } from './Container'
 import { ArticleHeader, HeaderTag, VerseText } from './Text'
 import { Button } from './Button'
@@ -73,6 +74,7 @@ const RecentBlogVerticalHeader = styled(VerticalContainer)`
   `
 
 const RecentBlogHorizontalContainer = styled(HorizontalContainer)`
+  width: 100%;
   height: 65%;
   @media only screen and (max-width: 850px) {
     flex-direction: column;
@@ -92,16 +94,18 @@ export default () => {
   return (
     <RecentBlogVerticalContainer>
       <RecentBlogVerticalHeader>
-        <RecentBlogHeader>The Beginning</RecentBlogHeader>
-        <BlogHeaderTag>November 01, 2019</BlogHeaderTag>
+        <RecentBlogHeader>I Hate Books</RecentBlogHeader>
+        <BlogHeaderTag>Date: TBD</BlogHeaderTag>
       </RecentBlogVerticalHeader>
       <RecentBlogHorizontalContainer>
         <div className="recent-blog__image" />
         <RecentBlogVerticalText>
           <VerseItalic>
-            Listicle lo-fi ennui, artisan polaroid pabst chartreuse tousled food truck viral. IPhone chambray tbh yuccie iceland, tousled subway tile franzen hella marfa poke post-ironic.
+            I hate books, until I didn't.
           </VerseItalic>
-          <Button>Read</Button>
+          <Link to="/comingsoon">
+            <Button>Read</Button>
+          </Link>
         </RecentBlogVerticalText>
       </RecentBlogHorizontalContainer>
     </RecentBlogVerticalContainer>
