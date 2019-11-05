@@ -13,13 +13,13 @@ export default function () {
           >
             Home
           </Link>
-          {/* <Link
+          <Link
             className="nav-links"
             activeClassName="nav-links__active"
             to="/comingsoon"
             >
             Blog
-          </Link> */}
+          </Link>
           <Link
             className="nav-links"
             activeClassName="nav-links__active"

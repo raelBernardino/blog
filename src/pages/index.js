@@ -21,8 +21,10 @@ const IndexPage = () => {
           displayBlog={displayBlog}
         />
       </div>
-      <BlogWrapper id="recent-blog">
-        <RecentBlog/>
+      <BlogWrapper
+        style={{ display: blogDisplay }}
+        id="recent-blog">
+        <RecentBlog />
       </BlogWrapper>
     </div>
   )
