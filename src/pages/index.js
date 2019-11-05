@@ -7,9 +7,11 @@ import { BlogWrapper } from "../components/Container"
 const IndexPage = () => {
   const [blogIsDisplayed, setBlogIsDisplayed] = useState(false)
   const [blogDisplay, setBlogDisplay] = useState('none')
+  const [recentBlogLink, setRecentBlogLink] = useState("")
 
   function displayBlog() {
     setBlogDisplay('flex')
+    setRecentBlogLink('/#recent-blog')
   }
 
   return (
@@ -19,11 +21,11 @@ const IndexPage = () => {
         <ImageBackground />
         <Home
           displayBlog={displayBlog}
+          recentBlogLink={recentBlogLink}
         />
       </div>
       <BlogWrapper
-        style={{ display: blogDisplay }}
-        id="recent-blog">
+        style={{ display: blogDisplay }}>
         <RecentBlog />
       </BlogWrapper>
     </div>

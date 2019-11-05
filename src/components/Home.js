@@ -29,13 +29,6 @@ export default ({
             <VerseText>"Remember also your Creator in the days of your youth, before the evil days come and the years draw near of which you will say, “I have no pleasure in them”"</VerseText>
           </div>
         </div>
-        <Link
-          onClick={displayBlog}
-          style={{maxWidth: "50%"}}
-          to="/#recent-blog"
-        >
-          <Button>Explore</Button>
-        </Link>
       </div>
     </div>
   )
