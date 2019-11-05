@@ -31,6 +31,7 @@ export default ({
         </div>
         <Link
           // onClick={displayBlog}
+          style={{maxWidth: "50%"}}
           to="/#recent-blog"
         >
           <Button>Explore</Button>
