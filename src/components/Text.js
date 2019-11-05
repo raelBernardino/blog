@@ -8,6 +8,9 @@ export const ArticleHeader = styled.h1`
   @media only screen and (max-width: 800px) {
     margin-top: 0;
   }
+  @media only screen and (max-width: 500px) {
+    font-size: 50px
+  }
   @media only screen and (max-width: 350px) {
     font-size: 30px;
   }

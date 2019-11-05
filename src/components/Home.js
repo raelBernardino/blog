@@ -3,7 +3,16 @@ import { Link } from 'gatsby'
 import { Button } from './Button'
 import { ArticleHeader, ArticleText, HeaderTag, VerseHeader, VerseText } from './Text'
 
-export default () => {
+if (typeof window !== "undefined") {
+  // eslint-disable-next-line global-require
+  require("smooth-scroll")('a[href*="#"]', {
+    speed: 1500
+  })
+}
+
+export default ({
+  displayBlog
+}) => {
   return (
     <div className="wrapper-left">
       <div className="home-container">
@@ -20,7 +29,10 @@ export default () => {
             <VerseText>"Remember also your Creator in the days of your youth, before the evil days come and the years draw near of which you will say, “I have no pleasure in them”"</VerseText>
           </div>
         </div>
-        <Link className="button-link" to="/comingsoon">
+        <Link
+          // onClick={displayBlog}
+          to="/#recent-blog"
+        >
           <Button>Explore</Button>
         </Link>
       </div>

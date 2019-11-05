@@ -13,6 +13,7 @@
     "gatsby-plugin-react-helmet": "^3.1.13",
     "gatsby-plugin-sass": "^2.1.20",
     "gatsby-plugin-sharp": "^2.2.34",
+    "gatsby-plugin-smoothscroll": "^1.0.3",
     "gatsby-source-filesystem": "^2.1.35",
     "gatsby-transformer-sharp": "^2.3.1",
     "node-sass": "^4.13.0",
@@ -22,6 +23,7 @@
     "react-dom": "^16.11.0",
     "react-helmet": "^5.2.1",
     "sass-loader": "^8.0.0",
+    "smooth-scroll": "^16.1.0",
     "styled-components": "^4.4.0"
   },
   "devDependencies": {
