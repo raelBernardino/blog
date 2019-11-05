@@ -103,9 +103,13 @@ export default () => {
           <VerseItalic>
             I hate books, until I didn't.
           </VerseItalic>
-          <Link to="/comingsoon">
-            <Button>Read</Button>
+          <Button>
+            <Link
+              style={{ textDecoration: "none", color:"black" }}
+              to="/comingsoon">
+              Read
           </Link>
+          </Button>
         </RecentBlogVerticalText>
       </RecentBlogHorizontalContainer>
     </RecentBlogVerticalContainer>
