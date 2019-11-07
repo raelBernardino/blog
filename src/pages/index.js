@@ -24,10 +24,10 @@ const IndexPage = () => {
           recentBlogLink={recentBlogLink}
         />
       </div>
-      <BlogWrapper
+      {/* <BlogWrapper
         style={{ display: 'flex' }}>
         <RecentBlog />
-      </BlogWrapper>
+      </BlogWrapper> */}
     </div>
   )
 }
