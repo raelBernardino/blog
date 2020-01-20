@@ -1,35 +1,46 @@
-import React, { useState } from "react"
-import { Nav, Home, ImageBackground, RecentBlog } from '../components'
+import React from 'react'
+import { Nav, Blogs } from '../components/'
+import { graphql } from 'gatsby'
+import '../styles/styles.scss'
+import '../styles/blogtemplate.scss'
+import '../styles/footer.scss'
 
-import '../styles.scss'
-import { BlogWrapper } from "../components/Container"
-
-const IndexPage = () => {
-  const [blogIsDisplayed, setBlogIsDisplayed] = useState(false)
-  const [blogDisplay, setBlogDisplay] = useState('none')
-  const [recentBlogLink, setRecentBlogLink] = useState("")
-
-  function displayBlog() {
-    setBlogDisplay('flex')
-    setRecentBlogLink('/#recent-blog')
-  }
-
+export default ({ data }) => {
+  const { edges } = data.allMarkdownRemark
+  console.log(edges)
   return (
     <div className="wrapper-outer" style={{ display: "flex", flexDirection: "column" }}>
       <div className="wrapper">
-        <Nav />
-        <ImageBackground />
-        <Home
-          displayBlog={displayBlog}
-          recentBlogLink={recentBlogLink}
+        <Blogs
+          edges={edges}
         />
       </div>
-      {/* <BlogWrapper
-        style={{ display: 'flex' }}>
-        <RecentBlog />
-      </BlogWrapper> */}
     </div>
   )
 }
 
-export default IndexPage
+export const query = graphql`
+  query AllBlogsQuery {
+    allMarkdownRemark (
+      sort: {order: DESC, fields: [frontmatter___date]}
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            path
+            date
+            preview
+            featuredImage {
+            childImageSharp {
+              fluid(quality: 100) {
+                src
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          }
+        }
+      }
+    }
+  }`
