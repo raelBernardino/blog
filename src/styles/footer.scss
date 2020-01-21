@@ -1,0 +1,28 @@
+.footer {
+  width: 100%;
+  min-height: 100px;
+  max-height: 150px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-around;
+  padding: 10%;
+  box-sizing: border-box;
+  &__message {
+    color: white;
+    font-family: "Roboto";
+    font-weight: 300;
+  }
+  &__socials {
+    color: #ffc126;
+    font-family: "Roboto";
+    font-weight: 300;
+    text-decoration: none;
+    transition: 0.2s;
+    &:hover {
+      color: white;
+      transition: 0.2s;
+    }
+  }
+}
