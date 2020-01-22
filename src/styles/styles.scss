@@ -39,8 +39,8 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
+  -ms-flex-direction: column;
+  flex-direction: column;
   &-left {
     animation: fadeIn 2.5s;
     width: 100%;
@@ -206,6 +206,7 @@ body {
     &__date {
       font-family: "Roboto", sans-serif;
       font-weight: 300;
+      margin: 0;
     }
     &__description {
       width: 70%;
@@ -218,7 +219,6 @@ body {
       background: transparent;
       color: white;
       border: 0.5px solid white;
-      font-size: 15px;
       &:hover {
         background-color: white;
         color: black;

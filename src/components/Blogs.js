@@ -41,7 +41,7 @@ export default ({ edges }) => {
     <BlogPage>
       <BlogContainer>
         {
-          edges.map((blog, i) => <BlogCard blog={blog} i={i} />)
+          edges.map((blog, i) => <BlogCard key={i} blog={blog} i={i} />)
         }
       </BlogContainer>
     </BlogPage>

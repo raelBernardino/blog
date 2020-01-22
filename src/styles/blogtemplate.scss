@@ -10,13 +10,13 @@
   &__return {
     font-family: "Playfair Display";
     font-weight: 900;
-    color: white;
+    color: rgba(250, 250, 250, .5);
     text-decoration: none;
     position: absolute;
     transition: .3s;
     top: 5%;
     left: 7%;
-    font-size: 20px;
+    font-size: 30px;
     &:hover {
       color: white;
       transition: .3s;
@@ -43,7 +43,7 @@
 @media only screen and (max-width: 800px) {
   .blog-template {
     &__return {
-      font-size: 15px;
+      font-size: 25px;
     }
     &__container {
       padding: 5% 15% 5% 15%;

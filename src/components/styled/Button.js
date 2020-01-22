@@ -3,8 +3,8 @@ import styled from 'styled-components'
 export const Button = styled.button`
   padding: 20px 50px 20px 50px;
   font-family: "Roboto";
-  font-weight: 900;
-  font-size: 20px;
+  font-weight: 300;
+  font-size: 15px;
   border: solid white 1px;
   outline: none;
   -webkit-transition: 0.5s;
@@ -21,8 +21,8 @@ export const Button = styled.button`
     background-color: white;
     color: black;
   }
-  @media only screen and (max-width: 450px) {
-      font-size: 15px;
+  @media only screen and (max-width: 800px) {
+      font-size: 12px;
       max-width: 100%;
   }
   @media only screen and (max-width: 350px) {
