@@ -24,7 +24,7 @@ export default ({ blog }) => {
         <Link to="/">
           <FontAwesomeIcon
             className="blog-template__return"
-            style={{ left: "5%" }}
+            style={{ left: "7%" }}
             icon={faArrowAltCircleLeft} />
         </Link>
         <div className="blog-card__inner">
