@@ -1,33 +1,27 @@
 ---
-path: "/brothers-in-christ"
-date: "January 20, 2020"
-title: "Brothers In Christ"
+path: "/comprehension"
+date: "January 21, 2020"
+title: "Comprehension"
 tags: ["this", "that"]
-featuredImage: "../../assets/canes.jpg"
-preview: "Lorem ipsum dolor amet mixtape plaid tacos, cardigan austin meggings yr YOLO pop-up put a bird on it chartreuse. Helvetica kogi narwhal selfies af bushwick poutine 90's authentic mustache cray biodiesel fixie..."
+featuredImage: "../../assets/park.jpg"
+preview: "I completely despise reading and writing. Sorry, I meant to say, “despised” reading and writing..."
 ---
 
-Lorem ipsum dolor amet deep v shoreditch viral, selvage aliquip marfa magna next level cred non fingerstache seitan. Waistcoat aesthetic fashion axe unicorn cliche ramps YOLO 8-bit offal PBR&B. Actually normcore everyday carry crucifix. Franzen artisan veniam raw denim pork belly. Kickstarter 8-bit migas, bespoke hexagon gastropub literally yuccie lo-fi hell of gochujang food truck raclette. Minim kitsch ut jianbing skateboard dolore.
+<b class="first-letter">I</b> completely despise reading and writing. Sorry, I meant to say, “despised” reading and writing.
+All throughout high school's summer and winter readings, I probably read a total of 3 books. I completely bs’d my way through the essays and analyses (shoutout to Sparknotes and Shmoop). In addition to my lack of appeal in reading, I was terrible at writing. Although I envied those who were naturally good at writing, I didn’t care enough to put in the work to become better at it.
 
-Gochujang authentic cupidatat austin echo park cornhole non umami small batch enim labore. Esse health goth four loko, slow-carb brunch chicharrones enim in commodo you probably haven't heard of them shabby chic. Etsy locavore tousled, schlitz ramps aliquip hammock. Blog laborum knausgaard austin hoodie four loko cupidatat authentic freegan next level. Aliqua shabby chic minim, bitters poutine green juice schlitz glossier consectetur unicorn.
+Within the last few months of 2019, I realized that I should read Christian books in order to broaden my perspective on the many different glories of God. The interest that initially was to help grow my knowledge of who God is, slowly turned into a hobby. If I'm being honest, I hated the fact that I enjoyed reading. Where was this in highschool? I picked up _1984_ by George Orwell, _Tuesdays with Morrie_  by Mitch Albom, and (the book I recently just finished) _Pachinko_ by Min Jin Lee. On the more religious side of it, I read _Crazy Love_ by Nathan Chan, _Screwtape Letters_ by C.S. Lewis, and I am currently reading _Mere Christianity_ by the same author. I’m baffled at the fact that I have read more books in the last 5 months than in my 4 years of high school.
 
-Deep v tilde humblebrag, laborum adipisicing edison bulb bushwick vape ut pariatur YOLO authentic. Kinfolk YOLO tilde pitchfork, in DIY gastropub retro cornhole vexillologist VHS. Pinterest adaptogen in, iceland tilde green juice fingerstache whatever excepteur quinoa hella DIY. Yuccie deep v affogato duis, hot chicken art party labore pickled. Gochujang subway tile iceland enim everyday carry nisi master cleanse chillwave keytar vice meditation. Etsy sed whatever flannel chia. Quinoa fugiat quis ethical, gastropub locavore mumblecore.
+Being invested in any hobby, it’s always natural to do your research about that interest. I’m sure you’ve all heard this from your english teachers: reading is a good stress reliever, you’ll concentrate better, or some other life changing benefit. Beyond the stress relief and concentration, the benefit of reading that still has me reading to this day would be comprehension. Imagine being able to understand most of what you read. That’s powerful. In software development, there’s an unbelievable amount of documentation to be read. I needed to read in order to further my potential as a developer and as a perpetual student.
 
-Celiac occupy crucifix tumblr roof party organic cillum truffaut. Raclette organic fingerstache flannel. Man bun leggings tote bag kogi sed coloring book, locavore wolf. +1 bushwick helvetica tumeric cornhole. Vice bitters everyday carry umami labore lyft. Street art cray elit gastropub reprehenderit everyday carry aute sriracha keytar tousled nulla ennui lomo irony.
-
-Chartreuse jean shorts roof party laborum. Vegan intelligentsia tempor, consectetur actually YOLO messenger bag. Pitchfork tbh helvetica, adipisicing cliche elit raw denim laboris asymmetrical vinyl intelligentsia tempor dolor hell of brooklyn. Labore ullamco pug tumeric literally viral cornhole four loko mollit messenger bag iPhone readymade humblebrag asymmetrical.
-
-Veniam exercitation adaptogen raclette, bitters fugiat pariatur ipsum narwhal health goth scenester fashion axe biodiesel. Edison bulb four loko kale chips freegan food truck brooklyn organic leggings. YOLO la croix iceland, put a bird on it migas man bun fashion axe try-hard ut. Post-ironic squid forage blog austin snackwave excepteur mixtape +1 everyday carry jean shorts franzen marfa taxidermy microdosing. Ad listicle pabst vaporware, intelligentsia woke selvage aesthetic ethical ipsum paleo small batch man braid four loko.
-
-Heirloom cold-pressed kinfolk quinoa, twee health goth tbh. Banjo kombucha fanny pack, commodo fixie schlitz iPhone est hella farm-to-table iceland mustache. Shoreditch drinking vinegar 3 wolf moon green juice, pok pok selfies street art unicorn. Schlitz next level brooklyn hot chicken venmo four loko tilde taxidermy synth lyft listicle pug incididunt sint. Minim vinyl echo park in flannel crucifix.
-
-Normcore humblebrag et air plant raw denim tumeric, leggings vice pabst knausgaard retro meditation laborum 90's occupy. Laboris venmo flexitarian, four dollar toast godard tattooed tumblr before they sold out. Biodiesel hammock swag wayfarers. Adipisicing salvia lomo tempor ut gentrify la croix aliqua.
-
-Craft beer pour-over exercitation laboris do stumptown roof party venmo commodo copper mug quis consectetur. Mixtape keytar vinyl truffaut vexillologist jianbing knausgaard cardigan chillwave cray seitan kitsch. Tumblr velit adipisicing cronut normcore +1. Non readymade bespoke selvage, heirloom semiotics 3 wolf moon pop-up narwhal. Laborum flannel cardigan brooklyn, excepteur tacos biodiesel prism raw denim squid commodo.
-
-Jean shorts air plant adipisicing taiyaki ethical. Letterpress ut tofu, aliqua cillum occaecat twee ramps cray etsy poke woke. Vice celiac subway tile est, air plant single-origin coffee prism. Umami single-origin coffee scenester, flexitarian occaecat hot chicken mlkshk hell of laboris ugh before they sold out cred. Semiotics cardigan sha
+After months of reading, I still don’t zoom through books, I still have to reread sentences to understand what they mean, but I know it’ll be worth it. I challenge you to go read, literally anything. Go read a news article, a blog post, or even better, a book. I can’t assure you that it’ll be easy, but the hardest part of many tasks in life is to start the task. Let’s take advantage of this privilege to be able to read.
 
 <br/>
 
-James 5:16
->_"Therefore, confess your sins to one another and pray for one another, that you may be healed. The prayer of a righteous person has great power as it is working."_
+_P.S.
+Currently reading “Pride and Prejudice” by Jane Austen. Shoutout to Lauren Mendoza._
+
+<br/>
+
+Luke 4:4 ESV
+>_“And Jesus answered him, “It is written, ‘Man shall not live by bread alone.’”"_
