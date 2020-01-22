@@ -4,8 +4,7 @@ import { Link } from 'gatsby'
 import { Button } from './styled/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowAltCircleLeft } from '@fortawesome/free-solid-svg-icons'
-import Canes from '../assets/canes.jpg'
-import Park from '../assets/park.jpg'
+import '../styles/styles.scss'
 
 const BlogCardContainer = styled.div`
   width: 100%;

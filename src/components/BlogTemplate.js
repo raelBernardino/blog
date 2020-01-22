@@ -4,6 +4,8 @@ import { Footer } from './index'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowAltCircleLeft } from '@fortawesome/free-solid-svg-icons'
 import Canes from '../assets/canes.jpg'
+import '../styles/blogtemplate.scss'
+import '../styles/footer.scss'
 
 export default ({ data }) => {
   console.log(data)
