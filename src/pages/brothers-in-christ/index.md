@@ -16,6 +16,8 @@ Being invested in any hobby, it’s always natural to do your research about tha
 
 After months of reading, I still don’t zoom through books, I still have to reread sentences to understand what they mean, but I know it’ll be worth it. I challenge you to go read, literally anything. Go read a news article, a blog post, or even better, a book. I can’t assure you that it’ll be easy, but the hardest part of many tasks in life is to start the task. Let’s take advantage of this privilege to be able to read.
 
+hello
+
 <br/>
 
 _P.S.

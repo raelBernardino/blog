@@ -13,6 +13,9 @@ export default () => {
         <Link to="/blogs">
           <button className="landing-left__button">BLOGS</button>
         </Link>
+        <Link to="/portfolio">
+          <button className="landing-left__button">PORTFOLIO</button>
+        </Link>
       </div>
       <div className="landing-right" />
     </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Landing } from '../components/'
 import '../styles/landing.scss'
+import '../styles/portfolio.scss'
 
 export default () => {
   return (
