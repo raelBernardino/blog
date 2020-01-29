@@ -11,7 +11,7 @@ export default () => {
           <span className="showcase-project__description-text">A website built for a nonprofit organization. The frontend stack: ReactJS, SCSS, Gatsby, and GraphQL.</span>
           <a
             className="button-link"
-            href="https://wonderful-tereshkova-291ac1.netlify.com">
+            href="https://legupla.netlify.com">
             <button className="landing-left__button">
               VISIT SITE
           </button>
