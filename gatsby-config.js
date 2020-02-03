@@ -37,6 +37,10 @@ module.exports = {
           {
             family: `Playfair Display`,
             variants: [`400`, `400i`, `700`, `700i`, `900`, `900i`]
+          },
+          {
+            family: `Noto Serif SC`,
+            variants: [`200`, `300`, `400`, `500`, `600`, `700`, `900`]
           }
         ],
       },
