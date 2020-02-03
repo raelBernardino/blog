@@ -1,23 +1,38 @@
 import React from 'react'
 
-export default () => {
+export default ({ projects }) => {
+  console.log(projects)
   return (
     <div className="showcase">
-      <div className="showcase-project">
-        <div className="showcase-project__thumbnail" />
-        <div className="showcase-project__description">
-          <span className="showcase-project__description-header">Leg Up Los Angeles</span>
-          <span className="showcase-project__description-date">Jauary 25, 2020</span>
-          <span className="showcase-project__description-text">A website built for a nonprofit organization. The frontend stack: ReactJS, SCSS, Gatsby, and GraphQL.</span>
+      {
+        projects.map(({ thumbnail, title, description, link }, i) => (
           <a
-            className="button-link"
-            href="https://legupla.netlify.com">
-            <button className="landing-left__button">
-              VISIT SITE
-          </button>
+            className="showcase-project__overlay"
+            href={link}
+          >
+            <div className="showcase-project"
+              style={{
+                backgroundImage: `url(${thumbnail})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
+              }}
+            >
+              <div className="showcase-project__overlay-hover">
+                <div className="showcase-project__description">
+                  <span className="showcase-project__description-header">{title}</span>
+                  <span className="showcase-project__description-text">{description}</span>
+                  {/* <a
+                className="button-link"
+                href={project.link}
+                >
+                <button className="landing-left__button">VISIT SITE</button>
+              </a> */}
+                </div>
+              </div>
+            </div>
           </a>
-        </div>
-      </div>
+        ))
+      }
     </div>
   )
 }
