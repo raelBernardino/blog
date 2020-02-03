@@ -12,7 +12,7 @@
     padding: 5% 5% 10% 5%;
     box-sizing: border-box;
     &__title {
-      font-family: "Playfair Display";
+      font-family: "Playfair Display", "Noto Serif SC";
       font-size: 50px;
       font-weight: 900;
       margin: 0;
@@ -25,7 +25,7 @@
     }
     &__description,
     &__verse {
-      font-family: "Playfair Display";
+      font-family: "Playfair Display", "Noto Serif SC";
       font-style: normal;
       font-size: 20px;
       margin-top: 10%;
