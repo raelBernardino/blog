@@ -15,7 +15,7 @@ export default () => {
         </a>
       </div>
       <div className="intro-nav">
-        <a href="/" className="intro-content__text intro-nav__text">BLOG</a>
+        <Link to="/blogs" className="intro-content__text intro-nav__text">BLOG</Link>
         <a href="/#projects" className="intro-content__text intro-nav__text">PORTFOLIO</a>
       </div>
     </div>
