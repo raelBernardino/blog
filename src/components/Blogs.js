@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { Nav } from '.'
+import React from 'react'
+// import { Nav } from '.'
 import BlogCard from './BlogCard'
 import styled from 'styled-components'
 

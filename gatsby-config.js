@@ -1,8 +1,8 @@
 module.exports = {
-  pathPrefix: "/blog",
+  pathPrefix: "/",
   siteMetadata: {
-    title: `Days of Your Youth`,
-    description: `A blog about my life.`,
+    title: `Rael Bernardino`,
+    description: `Front End Developer`,
     author: `Rael Bernardino`,
   },
   plugins: [
@@ -31,16 +31,8 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `Roboto`,
-            variants: [`300`, `400`, `900`]
-          },
-          {
-            family: `Playfair Display`,
-            variants: [`400`, `400i`, `700`, `700i`, `900`, `900i`]
-          },
-          {
-            family: `Noto Serif SC`,
-            variants: [`200`, `300`, `400`, `500`, `600`, `700`, `900`]
+            family: `Roboto Condensed`,
+            variants: [`300`, `400`, `700`]
           }
         ],
       },
