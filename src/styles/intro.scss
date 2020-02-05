@@ -73,3 +73,34 @@
   height: auto;
 }
 
+@media only screen and (min-width: 800px) {
+  .intro {
+    &-nav {
+      width: 33%;
+    }
+    &-content {
+      &__header {
+        font-size: 150px;
+        line-height: 150px;
+      }
+      &__text {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .intro {
+    padding: 7.5%;
+    &-content {
+      &__header {
+        font-size: 200px;
+        line-height: 200px;
+      }
+      &__text {
+        margin-top: 30px;
+      }
+    }
+  }
+}
