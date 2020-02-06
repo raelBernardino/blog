@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Intro, About, Showcase } from '../components/'
+import { Intro, About, Showcase, SEO } from '../components/'
 import '../styles/landing.scss'
 import '../styles/portfolio.scss'
 import '../styles/about.scss'
@@ -31,6 +31,7 @@ export default () => {
   return (
     <div className="wrapper-outer" style={{ display: "flex", flexDirection: "column" }}>
       {/* <Landing /> */}
+      <SEO/>
       <Intro />
       <About />
       <Showcase projects={projects} />
