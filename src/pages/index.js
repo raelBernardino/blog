@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { Intro, About, Showcase, SEO } from '../components/'
+import React, { useState, useEffect } from 'react'
+import { Intro, About, Showcase, Loading, SEO } from '../components/'
 import '../styles/landing.scss'
 import '../styles/portfolio.scss'
 import '../styles/about.scss'
@@ -14,6 +14,7 @@ if (typeof window !== "undefined") {
 }
 
 export default () => {
+  const [isLoading, setIsLoading] = useState(true)
   const [projects, setProjects] = useState([
     {
       title: 'Leg Up Los Angeles',
@@ -28,13 +29,26 @@ export default () => {
       link: 'https://ocwchurch.netlify.com'
     }
   ])
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false)
+    }, 2000)
+  }, [])
+
   return (
-    <div className="wrapper-outer" style={{ display: "flex", flexDirection: "column" }}>
-      {/* <Landing /> */}
-      <SEO/>
-      <Intro />
-      <About />
-      <Showcase projects={projects} />
+    <div className="wrapper-outer" style={{ display: "flex", flexDirection: "column", overflow: "hidden" }}>
+      {
+        isLoading ?
+          <Loading />
+          :
+          <div className="container">
+            <SEO />
+            <Intro />
+            <About />
+            <Showcase projects={projects} />
+          </div>
+      }
     </div>
   )
 }
