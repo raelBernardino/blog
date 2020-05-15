@@ -46,9 +46,19 @@ export default () => {
             <SEO />
             <Intro />
             <About />
-            <Showcase projects={projects} />
+            {/* <Showcase projects={projects} /> */}
+            <div className="showcase-text-container">
+              <h1 className="about-header about-header__smaller">HELP <span className="highlighted">JUMPSTART</span> MY CAREER</h1>
+              <span className="intro-content__text intro-content__text-grey">HIRE ME</span>
+              <span className="intro-content__text">So are you starting a business, want to create an app, or simply just want a website?</span>
+              <span className="intro-content__text">Let me be a part of something amazing.</span>
+              <br />
+              <span className="intro-content__text intro-content__text-grey">CONTACT ME</span>
+              <span className="intro-content__text intro-content__text-orange">bernardino1207@gmail.com</span>
+              <span className="intro-content__text intro-content__text-orange">323.384.3690</span>
+            </div>
           </div>
       }
-    </div>
+    </div >
   )
 }
